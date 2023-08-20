@@ -87,7 +87,7 @@ WSGI_APPLICATION = 'study_bud.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'backend-course',
+        'NAME': 'backend_course',
         'USER': 'mysuperuser',
         'PASSWORD': 'mysuperuser',
         'HOST': 'backend-course.cdc16lyj361c.us-east-1.rds.amazonaws.com',
